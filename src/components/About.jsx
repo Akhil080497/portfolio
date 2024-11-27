@@ -3,10 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <section className="w-full bg-bgsecondary text-white">
-        <div className="container border-bdr grid grid-cols-1 sm:grid-cols-2 items-center sm:h-[450px] space-y-0 py-8 sm:py-0">
+      <section className="w-full bg-bgsecondary text-white sm:gap-10">
+        <div className="container border-bdr grid grid-cols-1 sm:grid-cols-2 sm:justify-between items-center sm:h-[450px] space-y-0 py-8 sm:py-0 mx-auto">
           <div className="space-y-2 grid justify-items-center sm:justify-items-start">  
-              <p className="text-4xl md:text-6xl font-bold text-white">About</p>
+              <p className="text-4xl md:text-6xl sm:text-4xl font-bold text-white">About</p>
               <p className="text-white/75 text-center sm:text-left">
               Aspiring Web Developer seeking opportunities in Frontend roles. <br/>
               Skilled in JavaScript, SQL, 
@@ -22,7 +22,7 @@ const About = () => {
               </a>
               </button>
           </div>
-          <div className="space-y-8 grid justify-items-center sm:justify-items-start px-40">  
+          <div className="space-y-2 sm:pt-12 md:space-y-8 grid justify-items-center sm:justify-items-start md:px-40">  
             <p className="text-4xl md:text-6xl font-bold text-white">
                 Skills
             </p>
