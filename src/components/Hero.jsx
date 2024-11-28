@@ -4,8 +4,16 @@ const personImg = "/images/Akhil.png";
 const Hero = () => {
   return (
     <>
-      <section className="w-full bg-secondary text-black">
-        <div className="container border-bdr grid grid-cols-1 sm:grid-cols-2 items-center sm:h-[500px] space-y-0 ">
+      <section id="hero" className="w-full bg-secondary text-black">
+        <div className="container border-bdr grid grid-cols-1 md:grid-cols-2 items-center sm:h-[450px] space-y-0 ">
+          {/* Image section */}
+          <div className=" mx-auto sm:max-w-xs ">
+            <img 
+              src={personImg}
+              className="bg-white border-4 rounded-sm  p-2 transform transition-transform duration-300 hover:scale-105"
+              alt="person"
+            /> 
+          </div>
           <div>
             <div className="space-y-2 grid justify-items-center sm:justify-items-start">  
               <p >HELLO</p>
@@ -31,14 +39,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          {/* Image section */}
-          <div>
-            <img 
-              src={personImg}
-              className="border-primary border-4 rounded-sm w-full md:max-w-md mx-auto p-2 hover:bg-hoverrsecondary"
-              alt="person"
-            /> 
-          </div>
+          
         </div>
       </section>
     </>
