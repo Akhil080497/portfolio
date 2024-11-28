@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <section className="w-full bg-bgsecondary text-white sm:gap-10">
+      <section id="about" className="w-full bg-bgsecondary text-white sm:gap-10">
         <div className="container border-bdr grid grid-cols-1 sm:grid-cols-2 sm:justify-between items-center sm:h-[450px] space-y-0 py-8 sm:py-0 mx-auto">
           <div className="space-y-2 grid justify-items-center sm:justify-items-start">  
               <p className="text-4xl md:text-6xl sm:text-4xl font-bold text-white">About</p>
@@ -15,7 +15,8 @@ const About = () => {
               </p>
               <button>
               <a 
-                href="mailto:akhilreddy.padamati@gmail.com"
+                href="/ResumeAkhil.pdf"
+                download="Akhil_Padamati_Resume.pdf"
                 className="inline-block primary-btn my-3 bg-primary p-2 rounded text-white hover:bg-hoverr"
               >
                 Download Resume
