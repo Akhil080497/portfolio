@@ -4,19 +4,19 @@ import {FiMenu} from "react-icons/fi"
 const navMenu=[
     {
         name: "Home",
-        link: "/#home",
+        link: "#hero",
     },
     {
         name: "About",
-        link: "/#about",
+        link: "#about",
     },
     // {
     //     name: "Projects",
-    //     link: "/#projects",
+    //     link: "#projects",
     // },
     {
         name: "Contact",
-        link: "#",
+        link: "#contact",
     },
 ];
 
@@ -52,7 +52,8 @@ const Navbar = () => {
                                 {
                                     navMenu.map((menu)=>(
                                         <li  key={menu.name}>
-                                            <a className='text-xl font-semibold px-2 py-4  md:py-6 inline-block cursor-pointer' href={menu.link}>{menu.name}</a>
+                                            <a className='text-xl font-semibold px-2 py-4  md:py-6 inline-block cursor-pointer' 
+                                            href={menu.link}>{menu.name}</a>
                                         </li>
                                     ))
                                 }
