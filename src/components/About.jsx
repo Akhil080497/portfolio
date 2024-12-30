@@ -15,7 +15,7 @@ const About = () => {
               </p>
               <button>
               <a 
-                href="/Akhil-Padamati-Resume.pdf.pdf"
+                href="/Akhil-Padamati-Resume.pdf"
                 download="Akhil_Padamati_Resume.pdf"
                 className="inline-block primary-btn my-3 bg-primary p-2 rounded text-white hover:bg-hoverr"
               >
